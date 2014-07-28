@@ -1,5 +1,9 @@
 FirstTest::Application.routes.draw do
   get "static_pages/home"
+  get "static_pages/learning"
+  get "static_pages/guilt"
+  get "static_pages/rollercoaster"
+  get "static_pages/mission"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
