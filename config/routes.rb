@@ -1,9 +1,16 @@
 FirstTest::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/learning"
-  get "static_pages/guilt"
-  get "static_pages/rollercoaster"
-  get "static_pages/mission"
+  root 'static_pages#home'
+  match '/learning',      to: 'static_pages#learning',      via: 'get'
+  match '/guilt',         to: 'static_pages#guilt',         via: 'get'
+  match '/rollercoaster', to: 'static_pages#rollercoaster', via: 'get'
+  match '/mission',       to: 'static_pages#mission',       via: 'get'
+  match '/quit',          to: 'static_pages#quit',          via: 'get'
+  match '/questions',     to: 'static_pages#questions',     via: 'get'
+  match 'survive',        to: 'static_pages#survive',       via: 'get'
+  match 'risks',          to: 'static_pages#risks',         via: 'get'
+  match 'uncomfortable',  to: 'static_pages#uncomfortable', via: 'get'
+
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -13,4 +13,20 @@ class StaticPagesController < ApplicationController
 
   def mission
   end
+
+  def quit
+  end
+
+  def questions
+  end
+
+  def survive
+  end
+
+  def risks
+  end
+
+  def uncomfortable
+  end
+
 end

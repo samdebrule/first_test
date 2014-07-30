@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sam DeBrule | Startup and Entrepreneurship Essays</title>
+  <title><%= full_title(yield(:title)) %></title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -18,9 +19,19 @@
 
 <%= yield %>
 
-<div class="blog-footer">
-      <p><a href="https://twitter.com/samdebrule">@SamDeBrule</a>.</p>
-    </div>
+
+			<!-- tinyletter email -->
+        <form style="width:500px; margin: 0 auto 0; padding:3px;text-align:center;" action="https://tinyletter.com/samdebrule" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/samdebrule', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail" style="font-size:21px; color:#acacac">More awesomeness in your inbox</label></p><p><input type="text" style="width:300px; height:50px; font-size:28px; line-height:50px; float:left; display: inline-block;" placeholder="email@domain.com"name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input style="background-color: #378de5;
+display: inline-block;
+border: 0px;
+color: #ffffff;
+font-size: 28px;
+font-weight: bold;
+padding: 6px 24px;
+text-decoration: none;
+height: 50px;
+border-radius: 0px;" type="submit" value="Subscribe" /></form>
+         
 
 </body>
 </html>
