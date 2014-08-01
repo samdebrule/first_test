@@ -1,8 +1,7 @@
 FirstTest::Application.routes.draw do
-  root 'static_pages#home'
+  root  'static_pages#home'
   match '/learning',      to: 'static_pages#learning',      via: 'get'
-  match '/guilt',         to: 'static_pages#guilt',         via: 'get'
-  match '/rollercoaster', to: 'static_pages#rollercoaster', via: 'get'
+  match '/doubt',         to: 'static_pages#doubt',         via: 'get'
   match '/mission',       to: 'static_pages#mission',       via: 'get'
   match '/quit',          to: 'static_pages#quit',          via: 'get'
   match '/questions',     to: 'static_pages#questions',     via: 'get'

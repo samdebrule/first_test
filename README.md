@@ -1,3 +1,3 @@
-# Sam DeBrule: First Application
+# Sam DeBrule | Entrepreneurship and startup essays
 
-This is the first application by [Sam] (https://twitter.com/SamDeBrule)
+This is the [Sam's] (https://twitter.com/SamDeBrule) new and improved [blog about learning entrepreneurship] (https://samdebrule.com), the hard way. 
