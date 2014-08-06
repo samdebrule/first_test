@@ -29,4 +29,7 @@ class StaticPagesController < ApplicationController
   def uncomfortable
   end
 
+  def building
+  end
+
 end
