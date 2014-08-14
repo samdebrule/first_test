@@ -32,4 +32,7 @@ class StaticPagesController < ApplicationController
   def building
   end
 
+  def feedback
+  end
+
 end
