@@ -10,6 +10,7 @@ FirstTest::Application.routes.draw do
   match 'uncomfortable',  to: 'static_pages#uncomfortable', via: 'get'
   match 'building',       to: 'static_pages#building',      via: 'get'
   match 'feedback',       to: 'static_pages#feedback',      via: 'get'
+  match 'exercise',       to: 'static_pages#exercise',      via: 'get'
 
   
   # The priority is based upon order of creation: first created -> highest priority.

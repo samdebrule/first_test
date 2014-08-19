@@ -35,4 +35,7 @@ class StaticPagesController < ApplicationController
   def feedback
   end
 
+  def exercise
+  end
+
 end
