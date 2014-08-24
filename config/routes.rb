@@ -11,6 +11,8 @@ FirstTest::Application.routes.draw do
   match 'building',       to: 'static_pages#building',      via: 'get'
   match 'feedback',       to: 'static_pages#feedback',      via: 'get'
   match 'exercise',       to: 'static_pages#exercise',      via: 'get'
+  match 'hobbies',        to: 'static_pages#hobbies',       via: 'get'
+
 
   
   # The priority is based upon order of creation: first created -> highest priority.

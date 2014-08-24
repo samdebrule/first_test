@@ -38,4 +38,7 @@ class StaticPagesController < ApplicationController
   def exercise
   end
 
+  def hobbies
+  end
+
 end
