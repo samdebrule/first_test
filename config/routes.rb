@@ -12,6 +12,7 @@ FirstTest::Application.routes.draw do
   match 'feedback',       to: 'static_pages#feedback',      via: 'get'
   match 'exercise',       to: 'static_pages#exercise',      via: 'get'
   match 'hobbies',        to: 'static_pages#hobbies',       via: 'get'
+  match 'different',      to: 'static_pages#different',     via: 'get'
 
 
   
