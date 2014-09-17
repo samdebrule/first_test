@@ -47,4 +47,7 @@ class StaticPagesController < ApplicationController
   def happiness
   end
 
+  def walk
+  end
+
 end
