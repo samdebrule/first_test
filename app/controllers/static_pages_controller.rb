@@ -50,4 +50,7 @@ class StaticPagesController < ApplicationController
   def walk
   end
 
+  def humans
+  end
+
 end
