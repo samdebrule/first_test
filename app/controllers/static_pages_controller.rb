@@ -53,4 +53,7 @@ class StaticPagesController < ApplicationController
   def humans
   end
 
+  def family
+  end
+
 end

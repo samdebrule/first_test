@@ -16,6 +16,7 @@ FirstTest::Application.routes.draw do
   match 'happiness',      to: 'static_pages#happiness',     via: 'get'
   match 'walk',           to: 'static_pages#walk',          via: 'get'
   match 'humans',         to: 'static_pages#humans',        via: 'get'
+  match 'family',         to: 'static_pages#family',        via: 'get'
 
 
   
