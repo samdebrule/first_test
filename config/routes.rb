@@ -17,6 +17,7 @@ FirstTest::Application.routes.draw do
   match 'walk',           to: 'static_pages#walk',          via: 'get'
   match 'humans',         to: 'static_pages#humans',        via: 'get'
   match 'family',         to: 'static_pages#family',        via: 'get'
+  match 'bookshelf',      to: 'static_pages#bookshelf',     via: 'get'
 
 
   
