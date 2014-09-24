@@ -56,4 +56,7 @@ class StaticPagesController < ApplicationController
   def family
   end
 
+  def soundtrack
+  end
+
 end

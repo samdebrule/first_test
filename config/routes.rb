@@ -18,6 +18,7 @@ FirstTest::Application.routes.draw do
   match 'humans',         to: 'static_pages#humans',        via: 'get'
   match 'family',         to: 'static_pages#family',        via: 'get'
   match 'bookshelf',      to: 'static_pages#bookshelf',     via: 'get'
+  match 'soundtrack',     to: 'static_pages#soundtrack',     via: 'get'
 
 
   
