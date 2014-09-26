@@ -59,4 +59,7 @@ class StaticPagesController < ApplicationController
   def soundtrack
   end
 
+  def education
+  end
+
 end
