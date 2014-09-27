@@ -20,6 +20,7 @@ FirstTest::Application.routes.draw do
   match 'bookshelf',      to: 'static_pages#bookshelf',     via: 'get'
   match 'soundtrack',     to: 'static_pages#soundtrack',    via: 'get'
   match 'education',      to: 'static_pages#education',     via: 'get'
+  match 'jobs',           to: 'static_pages#jobs',          via: 'get'
 
 
   

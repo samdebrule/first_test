@@ -62,4 +62,7 @@ class StaticPagesController < ApplicationController
   def education
   end
 
+  def jobs
+  end
+
 end
