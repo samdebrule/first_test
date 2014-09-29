@@ -65,4 +65,7 @@ class StaticPagesController < ApplicationController
   def jobs
   end
 
+  def rocketship
+  end
+
 end
