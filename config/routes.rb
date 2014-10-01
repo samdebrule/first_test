@@ -21,7 +21,8 @@ FirstTest::Application.routes.draw do
   match 'soundtrack',     to: 'static_pages#soundtrack',    via: 'get'
   match 'education',      to: 'static_pages#education',     via: 'get'
   match 'jobs',           to: 'static_pages#jobs',          via: 'get'
-  match 'rocketship',     to: 'static_pages#rocketship',          via: 'get'
+  match 'rocketship',     to: 'static_pages#rocketship',    via: 'get'
+  match 'listen',         to: 'static_pages#listen',    via: 'get'
 
 
   

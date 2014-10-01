@@ -68,4 +68,7 @@ class StaticPagesController < ApplicationController
   def rocketship
   end
 
+  def listen
+  end
+
 end
