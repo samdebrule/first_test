@@ -71,4 +71,7 @@ class StaticPagesController < ApplicationController
   def listen
   end
 
+  def networking
+  end
+
 end

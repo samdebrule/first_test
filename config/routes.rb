@@ -22,7 +22,8 @@ FirstTest::Application.routes.draw do
   match 'education',      to: 'static_pages#education',     via: 'get'
   match 'jobs',           to: 'static_pages#jobs',          via: 'get'
   match 'rocketship',     to: 'static_pages#rocketship',    via: 'get'
-  match 'listen',         to: 'static_pages#listen',    via: 'get'
+  match 'listen',         to: 'static_pages#listen',        via: 'get'
+  match 'networking',     to: 'static_pages#networking',    via: 'get'
 
 
   
