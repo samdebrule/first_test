@@ -74,4 +74,7 @@ class StaticPagesController < ApplicationController
   def networking
   end
 
+  def sales
+  end
+
 end
