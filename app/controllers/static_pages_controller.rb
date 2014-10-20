@@ -77,4 +77,7 @@ class StaticPagesController < ApplicationController
   def sales
   end
 
+  def change
+  end
+
 end
