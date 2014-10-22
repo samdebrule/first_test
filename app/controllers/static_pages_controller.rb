@@ -80,4 +80,7 @@ class StaticPagesController < ApplicationController
   def change
   end
 
+  def benefits
+  end
+
 end

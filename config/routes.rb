@@ -25,7 +25,8 @@ FirstTest::Application.routes.draw do
   match 'listen',         to: 'static_pages#listen',        via: 'get'
   match 'networking',     to: 'static_pages#networking',    via: 'get'
   match 'sales',          to: 'static_pages#sales',         via: 'get'
-  match 'change',         to: 'static_pages#change',         via: 'get'
+  match 'change',         to: 'static_pages#change',        via: 'get'
+  match 'benefits',       to: 'static_pages#benefits',      via: 'get'
 
 
   
