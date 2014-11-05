@@ -83,4 +83,7 @@ class StaticPagesController < ApplicationController
   def benefits
   end
 
+  def podcasts
+  end
+
 end
