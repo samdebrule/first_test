@@ -28,6 +28,7 @@ FirstTest::Application.routes.draw do
   match 'change',         to: 'static_pages#change',        via: 'get'
   match 'benefits',       to: 'static_pages#benefits',      via: 'get'
   match 'podcasts',       to: 'static_pages#podcasts',      via: 'get'
+  match 'proud',          to: 'static_pages#proud',         via: 'get'
 
 
   

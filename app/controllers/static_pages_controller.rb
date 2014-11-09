@@ -86,4 +86,7 @@ class StaticPagesController < ApplicationController
   def podcasts
   end
 
+  def proud
+  end
+
 end
