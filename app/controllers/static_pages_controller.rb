@@ -89,4 +89,7 @@ class StaticPagesController < ApplicationController
   def proud
   end
 
+  def confidence
+  end
+
 end
