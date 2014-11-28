@@ -30,6 +30,7 @@ FirstTest::Application.routes.draw do
   match 'podcasts',       to: 'static_pages#podcasts',      via: 'get'
   match 'proud',          to: 'static_pages#proud',         via: 'get'
   match 'confidence',     to: 'static_pages#confidence',    via: 'get'
+  match 'thankful',       to: 'static_pages#thankful',      via: 'get'
 
 
   

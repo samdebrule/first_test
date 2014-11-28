@@ -92,4 +92,7 @@ class StaticPagesController < ApplicationController
   def confidence
   end
 
+  def thankful
+  end
+
 end
