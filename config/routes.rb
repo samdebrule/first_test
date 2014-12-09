@@ -31,6 +31,7 @@ FirstTest::Application.routes.draw do
   match 'proud',          to: 'static_pages#proud',         via: 'get'
   match 'confidence',     to: 'static_pages#confidence',    via: 'get'
   match 'thankful',       to: 'static_pages#thankful',      via: 'get'
+  match 'good',           to: 'static_pages#good',          via: 'get'
 
 
   

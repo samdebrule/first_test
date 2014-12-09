@@ -95,4 +95,7 @@ class StaticPagesController < ApplicationController
   def thankful
   end
 
+  def good
+  end
+
 end
